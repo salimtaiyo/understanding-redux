@@ -6,7 +6,6 @@ const ButtonGroup = ({technologies}) => {
 
     function dispatchBtnAction(e){
         const tech = e.target.dataset.tech;
-        console.log(tech);
         store.dispatch(setTechnology(tech))
     }
     
